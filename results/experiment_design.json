@@ -1,0 +1,47 @@
+{
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505,
+    606,
+    707,
+    808,
+    909,
+    1010,
+    1111,
+    1212,
+    1313,
+    1414,
+    1515,
+    1616,
+    1717,
+    1818,
+    1919,
+    2020
+  ],
+  "regimes": [
+    "balanced",
+    "heavy",
+    "car_dense"
+  ],
+  "arrival_rates": {
+    "low": 6.0,
+    "medium": 8.0,
+    "high": 10.0
+  },
+  "horizon": 8,
+  "epoch_time_budget": 14.0,
+  "setup_time": 1.0,
+  "per_vehicle_time": 1.0,
+  "policies": [
+    "HBC-MPC",
+    "Myopic-Endogenous",
+    "Largest-Feasible",
+    "Fixed-4-Cleanup",
+    "Fixed-4",
+    "Fixed-6"
+  ],
+  "paired_scenarios": 180
+}
